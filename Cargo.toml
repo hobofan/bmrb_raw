@@ -1,0 +1,11 @@
+[package]
+name = "bmrb_raw"
+version = "0.1.0"
+authors = ["Maximilian Goisser <goisser94@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ftp-client = "0.1.2"
+ftp = "3.0.1"
+serde_json = "1.0.51"
+serde = { version = "1.0.106", features = ["derive"] }
